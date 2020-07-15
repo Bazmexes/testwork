@@ -1,0 +1,35 @@
+.task{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid black 1px;
+    height: 30px;
+    p{
+        margin: 0;
+        border-right: solid 1px black;
+        padding: 5px 0px;
+    }
+    button{
+        border: none;
+    }
+    button:hover{
+        background-color: green;
+    }
+}
+
+.task_done{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid black 1px;
+    p{
+        margin: 0;
+        border-right: solid 1px black;
+        padding: 5px 0px;
+    }
+    button{
+        border: none;
+    }
+    button:hover{
+        background-color: red;
+    }
+
+}
